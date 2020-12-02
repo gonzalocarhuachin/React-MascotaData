@@ -1,0 +1,46 @@
+.container-fluid
+{
+    background-color: #F9F9F9;
+    width: 100%;
+    height: 100%;
+}
+
+.container
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.row
+{
+    margin-bottom: 30px;
+}
+
+h3
+{
+    text-align: center;
+}
+
+th, td
+{
+    text-align: center;
+}
+
+.controls
+{
+    background-color: #F1894C;
+    color: #F1894C;
+}
+
+li, li.current
+{
+    background-color: #F1894C;
+    color: #F1894C;
+}
+
+input
+{
+    border-radius: 25px;
+    border: 1px solid #F1894C;
+    background-color: #f9f9f9;
+}

@@ -1,0 +1,1 @@
+export const APIWebService = "http://localhost/serviciomascotadata/"
