@@ -1,4 +1,9 @@
 import React, { Component } from 'react';
+import './Banner.css';
+import banner1 from '../assets/mascota1.jpeg';
+import banner2 from '../assets/mascota2.jpg';
+import banner3 from '../assets/mascota3.jpg';
+import banner4 from '../assets/mascota4.jpg';
 
 export default class Banner extends Component {
     render (){
@@ -15,16 +20,16 @@ export default class Banner extends Component {
                         </ol>
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                              <img src="assets/mascota1.jpeg" className="d-block w-100" alt="..."/>
+                              <img src={banner1} className="d-block w-100" alt="..."/>
                             </div>
                             <div className="carousel-item">
-                              <img src="assets/mascota2.jpg" className="d-block w-100" alt="..."/>
+                              <img src={banner2} className="d-block w-100" alt="..."/>
                             </div>
                             <div className="carousel-item">
-                              <img src="assets/mascota3.jpg" className="d-block w-100" alt="..."/>
+                              <img src={banner3} className="d-block w-100" alt="..."/>
                             </div>
                             <div className="carousel-item">
-                              <img src="assets/mascota4.jpg" className="d-block w-100" alt="..."/>
+                              <img src={banner4} className="d-block w-100" alt="..."/>
                             </div>
                         </div>
                     </div>

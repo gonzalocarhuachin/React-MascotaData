@@ -6,9 +6,9 @@ import 'bootstrap/dist/js/bootstrap.bundle';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-// import MainHeader from './common/MainHeader';
+import MainHeader from './common/MainHeader';
 import MainNav from './common/MainNav';
-import MainFooter from './common/MainFooter';
+// import MainFooter from './common/MainFooter';
 // import Nosotros from './components/Nosotros/Nosotros';
 // import Testimonios from './components/Testimonios/Testimonios';
 // import Recordatorios from './components/Recordatorios/Recordatorios';
@@ -18,17 +18,17 @@ import MainFooter from './common/MainFooter';
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      {/* <MainHeader /> */}
+      <MainHeader />
       <MainNav />
-      <main>
+      <div>
         <Route exact path="/" component={App}/>
         {/* <Route exact path="/nosotros" component={Nosotros}/>
         <Route exact path="/testimonios" component={Testimonios}/>
         <Route exact path="/recordatorios" component={Recordatorios}/>
         <Route exact path="/mismascotas" component={Mascotas}/>
         <Route exact path="/iniciosesion" component={Login}/> */}
-      </main>
-      <MainFooter />
+      </div>
+      {/* <MainFooter /> */}
     </Router>
   </React.StrictMode>,
   document.getElementById('root')

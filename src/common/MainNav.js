@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import './MainNav.css';
 
 export default class MainNav extends Component {
     render (){
@@ -8,27 +8,27 @@ export default class MainNav extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-4">
-                            <Link className="nav-link" to="/">MascotaData</Link>
+                            <a href="/"><h2>MascotaData</h2></a>
                         </div>
                         <div className="col-md-8 col-sm-12">
                             <ul className="nav justify-content-end">
                                 <li className="nav-item">
-                                    <Link className="nav-link active" to="/">Inicio</Link>
+                                    <a href="/" className="nav-link active">Inicio</a>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/nosotros">Nosotros</Link>
+                                    <a href="/nosotros" className="nav-link active">Nosotros</a>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/testimonios">Testimonios</Link>
+                                    <a href="/testimonios" className="nav-link active">Testimonios</a>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/recordatorios">Recordatorios</Link>
+                                    <a href="/recordatorios" className="nav-link active">Recordatorios</a>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/mismascotas">Mis Mascotas</Link>
+                                    <a href="/mismascotas" className="nav-link active">Mis Mascotas</a>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/iniciosesion">Inicio de Sesión</Link>
+                                    <a href="/iniciosesion" className="nav-link active">Inicio de Sesión</a>
                                 </li> 
                             </ul> 
                         </div>
