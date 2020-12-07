@@ -6,7 +6,7 @@ export default class Nosotros extends Component {
     render (){
         return (
             <div>
-                <div class="container-fluid nosotros">
+                <div className="container-fluid nosotros">
                     <div class="container nosotros2">
                         <div class="row titulo">
                             <div class="col-md-12">
