@@ -1,4 +1,4 @@
-.container-fluid
+#info, #info2
 {
     background-color: #121212;
     width: 100%;
@@ -41,7 +41,7 @@ span
     width: 100%;
 }
 
-h6
+.subtitulo
 {
     color: #ffffff;
     font-weight: 700;
@@ -52,6 +52,7 @@ h6
     padding-top: 10px;
     color: #7B807A;
     font-size: 16px;
+    text-align: left;
 }
 
 a
@@ -65,9 +66,10 @@ a
     line-height: 10px;
     font-size: 18px;
     font-weight: 700;
+    text-align: left;
 }
 
-#copy
+#copy, #copy2
 {
     background-color: #050404;
     height: 100%;

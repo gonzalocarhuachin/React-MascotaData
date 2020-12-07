@@ -5,8 +5,8 @@ export default class MainFooter extends Component {
     render (){
         return (
             <div>
-                <div className="container-fluid">
-                    <div className="container">
+                <div className="container-fluid" id="info">
+                    <div className="container" id="info2">
                         <div className="row" id="correo">
                             <div className="col-md-6">
                                 <h5>Para mayor información del servicio de <span>MascotaData</span>, envíanos un correo</h5>
@@ -27,7 +27,7 @@ export default class MainFooter extends Component {
                         </div>
                         <div className="row" id="contacto">
                             <div className="col-md-4">
-                                <h6>MASCOTADATA</h6>
+                                <h6 className="subtitulo">MASCOTADATA</h6>
                                 <p className="contacto">Síguenos en nuestras redes sociales!</p>
                                 <hr/>
                                 <a href="/">
@@ -41,7 +41,7 @@ export default class MainFooter extends Component {
                                 </a>
                             </div>
                             <div className="col-md-4">
-                                <h6>AYUDA</h6>
+                                <h6 className="subtitulo">AYUDA</h6>
                                 <a href="/" className="ayuda">
                                     <p className="contacto">Términos y Condiciones</p>
                                 </a>
@@ -53,7 +53,7 @@ export default class MainFooter extends Component {
                                 </a>
                             </div>
                             <div className="col-md-4">
-                                <h6>ÚLTIMAS NOTICIAS</h6>
+                                <h6 className="subtitulo">ÚLTIMAS NOTICIAS</h6>
                                 <p className="contacto">- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis ex euismod, venenatis orci sed, accumsan orci.</p>
                                 <p className="contacto">- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis ex euismod, venenatis orci sed, accumsan orci.</p>
                             </div>
@@ -61,7 +61,7 @@ export default class MainFooter extends Component {
                 </div>
                 </div>
                 <div className="container-fluid" id="copy">
-                    <div className="container">
+                    <div className="container" id="copy2">
                         <div className="row">
                             <div className="col-md-12">
                                 <p id="copytext">© 2020 MascotaData.</p>

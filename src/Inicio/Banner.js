@@ -8,7 +8,7 @@ import banner4 from '../assets/mascota4.jpg';
 export default class Banner extends Component {
     render (){
         return (
-            <div className="container-fluid">
+            <div className="container-fluid" id="banner">
                 <div className="row">
                     <div className="container">
                     <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
