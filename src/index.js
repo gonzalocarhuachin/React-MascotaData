@@ -12,7 +12,7 @@ import MainFooter from './common/MainFooter';
 import Nosotros from './components/Nosotros/Nosotros';
 import Testimonios from './components/Testimonios/Testimonios';
 import Recordatorios from './components/Recordatorios/Recordatorios';
-// import Mascotas from './components/Mascotas/Mascotas';
+import MisMascotas from './components/MisMascotas/MisMascotas';
 import Login from './components/Login/Login';
 
 ReactDOM.render(
@@ -25,7 +25,7 @@ ReactDOM.render(
         <Route exact path="/nosotros" component={Nosotros}/>
         <Route exact path="/testimonios" component={Testimonios}/>
         <Route exact path="/recordatorios" component={Recordatorios}/>
-        {/* <Route exact path="/mismascotas" component={Mascotas}/> */}
+        <Route exact path="/mismascotas" component={MisMascotas}/>
         <Route exact path="/iniciosesion" component={Login}/>
       </div>
       <MainFooter />

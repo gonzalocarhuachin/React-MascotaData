@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { ApiWebUrl } from '../utils';
 import './Recordatorios.css';
+import { ApiWebUrl } from '../../utils';
+import Mascotas from '../Mascotas/Mascotas';
 
 export default class Recordatorios extends Component {
 
@@ -56,7 +57,7 @@ export default class Recordatorios extends Component {
 
     render (){
         let contenidoMascotas = this.dibujarMascotas(this.state.listaMascotas);
-        let dibujarComponenteRecordatorios = <Recordatorios mascotaRecordatorio={this.state.mascotaSeleccionada}/>
+        let dibujarComponenteMascotas = <Mascotas mascotaRecordatorio={this.state.mascotaSeleccionada}/>
         return (
             <div className="container-fluid cajafuerarecordatorios">
                 <div className="container cajadentrorecordatorios">
@@ -66,22 +67,7 @@ export default class Recordatorios extends Component {
                             {contenidoMascotas}
                         </div>
                         <div className="col-md-9">
-                            <table className="table table-bordered">
-                                <thead className="thead-dark">
-                                    <tr>
-                                        <th>#</th>
-                                        <th>Descripción</th>
-                                        <th>Fecha</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                            {dibujarComponenteMascotas}
                         </div>
                     </div>
                 </div>

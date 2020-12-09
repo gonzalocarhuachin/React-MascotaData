@@ -34,3 +34,8 @@
 {
     font-weight: 800;
 }
+
+.fila-seleccionada{
+    background-color: black;
+    color: white;
+  }
